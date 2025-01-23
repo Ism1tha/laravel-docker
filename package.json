@@ -9,6 +9,7 @@
         "@babel/preset-env": "^7.26.0",
         "@babel/preset-react": "^7.26.3",
         "@babel/preset-typescript": "^7.26.0",
+        "@types/node": "^22.10.7",
         "@types/react": "^19.0.7",
         "@types/react-dom": "^19.0.3",
         "axios": "^1.7.9",
