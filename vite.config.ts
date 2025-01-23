@@ -1,5 +1,8 @@
 import { defineConfig } from "vite";
 import laravel from "laravel-vite-plugin";
+import path from "path";
+import { fileURLToPath } from "url";
+const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
 export default defineConfig({
     server: {
@@ -7,6 +10,13 @@ export default defineConfig({
         port: 5173,
         hmr: {
             host: "localhost",
+        },
+    },
+    resolve: {
+        alias: {
+            "@": path.resolve(__dirname, "resources/ts"),
+            "@components": path.resolve(__dirname, "resources/ts/components"),
+            "@utils": path.resolve(__dirname, "resources/ts/utils"),
         },
     },
     plugins: [
