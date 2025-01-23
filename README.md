@@ -15,7 +15,7 @@
 - Vite v5.x
 - Rector v1.x
 - Redis v7.2.x
-- Docker v19 (TypeScript)
+- React v19 (TypeScript)
 
 # Requirements
 - Stable version of [Docker](https://docs.docker.com/engine/install/)
