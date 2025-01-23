@@ -58,6 +58,9 @@ RUN git clone https://github.com/seebi/dircolors-solarized
 EXPOSE 5173
 WORKDIR /var/www
 
+# git config
+RUN git config --global --add safe.directory /var/www
+
 #entrypoint
 ENTRYPOINT ["entrypoint.sh"]
 CMD ["php-fpm"]
