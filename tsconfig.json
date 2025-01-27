@@ -28,8 +28,8 @@
             "@components/*": ["resources/ts/components/*"],
             "@utils/*": ["resources/ts/utils/*"]
         },
-        "outDir": "./dist", // Output directory for compiled files
-        "rootDir": "./src", // Root directory of the source files
+        "outDir": "./public/build", // Output directory for compiled files
+        "rootDir": "./resources", // Root directory of the source files
 
         // Source Map and Debugging
         "sourceMap": true, // Generate source maps for debugging
