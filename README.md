@@ -21,17 +21,17 @@
 - Stable version of [Docker](https://docs.docker.com/engine/install/)
 - Compatible version of [Docker Compose](https://docs.docker.com/compose/install/#install-compose)
 
-# How To Deploy
+# How to Deploy
 
-### For first time only !
-- `git clone https://github.com/refactorian/laravel-docker.git`
-- `cd laravel-docker`
-- `docker compose up -d --build`
-- `docker compose exec php bash`
-- `composer setup`
+1. **Run the DevContainer**:  
+   Make sure you have [Visual Studio Code](https://code.visualstudio.com/) with the [Dev Containers](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers) extension installed.  
+   
+   Once installed, open your project in VS Code and reopen it in the dev container using the `Reopen in Container` command.
 
-### From the second time onwards
-- `docker compose up -d`
+2. **That's it!**  
+   After the dev container starts, the necessary environment and dependencies should be automatically set up. You can now start working on the project.
+
+
 
 # Notes
 
